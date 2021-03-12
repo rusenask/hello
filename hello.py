@@ -2,6 +2,7 @@ import os
 import numpy as np
 from argparse import ArgumentParser
 import torch
+import time
 from torch.utils.tensorboard import SummaryWriter
 
 # add arguments 
@@ -40,3 +41,5 @@ print('torch:', torch.rand(1), 'numpy', np.random.rand(1))
 f = open("weights.pt", "a")
 f.write("fake weights")
 f.close()
+
+time.sleep(15)
