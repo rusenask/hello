@@ -42,4 +42,4 @@ f = open("weights.pt", "a")
 f.write("fake weights")
 f.close()
 
-time.sleep(15)
+time.sleep(25)
